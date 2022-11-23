@@ -5,7 +5,7 @@ import axios from "axios";
 
 import logo from "../assets/logo.png";
 
-export default function SignUp() {
+export default function Login() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
